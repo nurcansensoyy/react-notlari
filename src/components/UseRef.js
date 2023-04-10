@@ -11,7 +11,7 @@ useEffect(()=>{
     setStatus("deneme2") //burada sayfa ilk çalıştığında status u deneme değil deneme2 olarak çalıştırmasını söyledik.
 },[]);
 
-console.log("firstRef",firstRef.current.value = 5)
+console.log("firstRef",firstRef.current.valueOf = 5)
 
 const refFunc = () =>{
     //firsREf.current

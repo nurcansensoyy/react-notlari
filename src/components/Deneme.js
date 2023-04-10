@@ -1,4 +1,4 @@
-const Anasayfa = ({props}) => {
+const Deneme = ({props}) => {
     console.log('1',props)
     return (
         <div>
@@ -9,5 +9,5 @@ const Anasayfa = ({props}) => {
     )
 }
 
-export default Anasayfa;
+export default Deneme;
  //dışarıdaki sayfalarda kullanabilmek için  export ederiz.
