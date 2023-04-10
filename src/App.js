@@ -1,11 +1,12 @@
+import Anasayfa from "./components/Anasayfa";
+import YeniSayfa from "./components/YeniSayfa";
 
 function App() {
-  const deneme = "nurcan";
+  
   return (
     <div className="App">
-      <header className="App-header">
-      {deneme}
-      </header>
+    <Anasayfa />
+    <YeniSayfa />
     </div>
   );
 }
