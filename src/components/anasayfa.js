@@ -1,6 +1,11 @@
-const anasayfa = () => {
+const anasayfa = ({props}) => {
+    console.log('1',props)
     return (
-        <div> Burası anasayfadır.</div>
+        <div>
+            <div> Burası anasayfadır.</div>
+            <div>{props}</div>
+        </div>
+        
     )
 }
 
