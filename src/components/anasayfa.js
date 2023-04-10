@@ -1,4 +1,4 @@
-const anasayfa = ({props}) => {
+const Anasayfa = ({props}) => {
     console.log('1',props)
     return (
         <div>
@@ -9,5 +9,5 @@ const anasayfa = ({props}) => {
     )
 }
 
-export default anasayfa
+export default Anasayfa;
  //dışarıdaki sayfalarda kullanabilmek için  export ederiz.
