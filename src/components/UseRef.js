@@ -1,17 +1,11 @@
-import { useEffect, useRef, useState } from "react";
+import { useRef} from "react";
 
 
-const UseEffect = () => {
+const UseRef = () => {
 
-const [status, setStatus]= useState("deneme");
+const firstRef = useRef(0);
 
-const firstRef = useRef(0)
-
-useEffect(()=>{
-    setStatus("deneme2") //burada sayfa ilk çalıştığında status u deneme değil deneme2 olarak çalıştırmasını söyledik.
-},[]);
-
-console.log("firstRef",firstRef.current.valueOf = 5)
+console.log("firstRef",firstRef.current.valueOf=5);
 
 const refFunc = () =>{
     //firsREf.current
@@ -19,10 +13,9 @@ const refFunc = () =>{
 
     return(
         <div>
-        <div>{status}</div>
-            <input onClick={refFunc} ref={firstRef} placeholder="ara>"></input>
+            <input onClick={refFunc} ref={firstRef} placeholder="ara"></input>
         </div>
     )
-}
+    }
 
-export default UseEffect;
+export default UseRef;
