@@ -3,6 +3,9 @@ import UseEffect from "./components/UseEffect";
 import UseState from "./components/UseState";
 import UseRef from "./components/UseRef.js"
 import Deneme from "./components/Deneme";
+import UseMemo from "./components/useMemo";
+
+
 
 function App() {
   const deneme = "props mantigi";
@@ -20,6 +23,7 @@ function App() {
     <UseEffect/>
     <UseState/>
     <UseRef />
+    <UseMemo/>
     
   
     {arr.map((dizi,i)=> ( //dizide istenen name değerini ekrana bastırmak için map fonksiyonu kullandık.

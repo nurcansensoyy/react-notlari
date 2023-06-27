@@ -5,7 +5,7 @@ const UseRef = () => {
 
 const firstRef = useRef(0);
 
-console.log("firstRef",firstRef.current.valueOf=5);
+console.log("firstRef",firstRef.current);
 
 const refFunc = () =>{
     //firsREf.current
